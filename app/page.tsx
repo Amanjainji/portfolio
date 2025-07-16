@@ -200,10 +200,9 @@ export default function Portfolio() {
             <div className="space-y-6">
               <GlassmorphicCard>
                 <p className="text-lg text-zinc-300">
-                  I'm a passionate software engineering student with experience
-                  building web applications and Machine learning models. A
-                  consistent academic performer with an innate curiosity for how
-                  systems work, I discovered my passion for technology early on.
+                  A consistent academic performer with an innate curiosity for how
+                  systems work, I discovered my passion for technology early on. I'm a passionate software engineering student with experience
+                  building web applications and machine learning models.
                 </p>
                 <p className="text-lg text-zinc-300 mt-4">
                   My journey in tech started with a strong foundation in

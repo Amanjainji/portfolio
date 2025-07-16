@@ -5,31 +5,24 @@ import { useMobile } from "@/hooks/use-mobile"
 
 const experiences = [
   {
-    title: "Senior Frontend Engineer",
-    company: "Tech Innovations Inc.",
-    period: "2021 - Present",
+    title: "ML Research Intern",
+    company: "MLR LAB DTU, Delhi",
+    period: "June 2025 - Present",
     description:
-      "Lead the frontend development team in building a SaaS platform. Implemented new features, improved performance, and mentored junior developers.",
+      "Conducting research on Action recognition in Dark on ARID and ELLAR. Collaborating with cross-functional teams to develop and implement ML models pipelines.",
   },
   {
-    title: "Frontend Developer",
-    company: "Digital Solutions Co.",
-    period: "2019 - 2021",
+    title: "Corporate Head",
+    company: "Literature and Film Society, DTU",
+    period: "2023 - 2025",
     description:
-      "Developed responsive web applications using React and TypeScript. Collaborated with designers and backend engineers to deliver high-quality products.",
+      "Spearheaded sponsorship acquisition by initiating partnerships, negotiating deals, forged corporate relationships and led a team of executives, ensuring financial support for the fest Yuvaan.",
   },
   {
-    title: "Web Developer",
-    company: "Creative Agency",
-    period: "2017 - 2019",
-    description:
-      "Built websites and web applications for various clients. Worked with HTML, CSS, JavaScript, and WordPress.",
-  },
-  {
-    title: "Intern",
-    company: "Startup Hub",
-    period: "2016 - 2017",
-    description: "Assisted in developing web applications and learned modern web development practices.",
+    title: "Volunteer",
+    company: "Smart India Hackathon, Character on Road Hackathon",
+    period: "2024",
+    description: "Orchestrated logistics at major hackathons and events including Character On Road and Smart India Hackathon at DTU managing 1,000+ participants to ensure seamless event execution.",
   },
 ]
 
