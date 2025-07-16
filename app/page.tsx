@@ -344,7 +344,7 @@ export default function Portfolio() {
               description="This portfolio website built with Next.js and Tailwind CSS."
               tags={["Next.js", "Tailwind CSS", "Framer Motion"]}
               image="/project6.png?height=400&width=600"
-              demoUrl=""
+              demoUrl="https://portfolio-nine-omega-1cygncvc1l.vercel.app/"
               repoUrl="https://github.com/Amanjainji/portfolio"
             />
           </div>
