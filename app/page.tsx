@@ -310,7 +310,7 @@ export default function Portfolio() {
               repoUrl="https://github.com/Amanjainji/Snap-Basket"
             />
             <ProjectCard
-              title="U&I CHAT Realtime App"
+              title="U&I Realtime Chat App"
               description="A real-time chat application using Socket.io for instant messaging with real-time updates."
               tags={["React.js", "Socket.io", "MongoDB", "Express.js"]}
               image="/project2.png?height=400&width=600"
