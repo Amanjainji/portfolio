@@ -1,58 +1,59 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { motion } from "framer-motion"
-import { Send } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { useToast } from "@/hooks/use-toast"
-import emailjs from "@emailjs/browser"
+import { useState } from "react";
+import { motion } from "framer-motion";
+import { Send } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { useToast } from "@/hooks/use-toast";
+import emailjs from "@emailjs/browser";
 
 export function ContactFormEmailJS() {
-  const { toast } = useToast()
-  const [isSubmitting, setIsSubmitting] = useState(false)
+  const { toast } = useToast();
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [form, setForm] = useState({
     from_name: "",
     from_email: "",
     subject: "",
     message: "",
-  })
+  });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setForm({ ...form, [e.target.name]: e.target.value })
-  }
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    setForm({ ...form, [e.target.name]: e.target.value });
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsSubmitting(true)
+    e.preventDefault();
+    setIsSubmitting(true);
 
     try {
-      console.log("Sending:", form)
       await emailjs.send(
-        "service_pox8eyl",
-        "template_tkh5wls",
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
         form,
-        "IC08YIFAOKWd7lmpv"
-      )
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
+      );
 
       toast({
         title: "Message sent!",
         description: "Thanks for reaching out. I'll get back to you soon.",
-      })
+      });
 
-      setForm({ from_name: "", from_email: "", subject: "", message: "" })
+      setForm({ from_name: "", from_email: "", subject: "", message: "" });
     } catch (err) {
-      console.error("EmailJS Error:", err)
+      console.error("EmailJS Error:", err);
       toast({
         title: "Error",
         description: "Failed to send message. Please try again.",
         variant: "destructive",
-      })
+      });
     } finally {
-      setIsSubmitting(false)
+      setIsSubmitting(false);
     }
-  }
+  };
 
   return (
     <motion.div
@@ -123,5 +124,5 @@ export function ContactFormEmailJS() {
         </div>
       </div>
     </motion.div>
-  )
+  );
 }
