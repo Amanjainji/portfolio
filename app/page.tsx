@@ -200,9 +200,11 @@ export default function Portfolio() {
             <div className="space-y-6">
               <GlassmorphicCard>
                 <p className="text-lg text-zinc-300">
-                  A consistent academic performer with an innate curiosity for how
-                  systems work, I discovered my passion for technology early on. I'm a passionate software engineering student with experience
-                  building web applications and machine learning models.
+                  A consistent academic performer with an innate curiosity for
+                  how systems work, I discovered my passion for technology early
+                  on. I'm a passionate software engineering student with
+                  experience building web applications and machine learning
+                  models.
                 </p>
                 <p className="text-lg text-zinc-300 mt-4">
                   My journey in tech started with a strong foundation in
@@ -317,7 +319,7 @@ export default function Portfolio() {
             />
             <ProjectCard
               title="Twitter Sentiment Analysis"
-              description="A ML model that get your top 100 tweets classified into positive and negative with 80% accuracy." 
+              description="A ML model that get your top 100 tweets classified into positive and negative with 80% accuracy."
               tags={["Python", "Scikit Learn", "Streamlit", "Pandas"]}
               image="/project3.png?height=400&width=600"
               demoUrl="https://twitter-app-7twmlezkrbhnmcppbea7wb.streamlit.app/"
