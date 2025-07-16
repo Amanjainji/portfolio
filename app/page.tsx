@@ -86,7 +86,7 @@ export default function Portfolio() {
               </span>
             </h1>
             <p className="text-xl text-zinc-400 max-w-[600px]">
-              Bachelor of Technology student at Delhi Technological University, Delhi, passionate about building smart tech
+              doing Bachelor of Technology at Delhi Technological University, Delhi, passionate about building smart tech
               that solves real problems. I combine strong problem-solving skills
               with a drive for innovation to create efficient, impactful
               solutions.
