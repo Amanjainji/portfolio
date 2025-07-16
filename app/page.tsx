@@ -112,7 +112,7 @@ export default function Portfolio() {
             </div>
             <div className="flex gap-4 pt-4">
               <Link
-                href="https://github.com/Amanjainji"
+                href="https://github.com/Amanjainji?tab=overview&from=2025-07-01&to=2025-07-17"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -449,7 +449,7 @@ export default function Portfolio() {
           </div>
           <div className="flex gap-4">
             <Link
-              href="https://github.com/Amanjainji"
+              href="https://github.com/Amanjainji?tab=overview&from=2025-07-01&to=2025-07-17"
               target="_blank"
               rel="noopener noreferrer"
             >
