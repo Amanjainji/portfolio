@@ -5,23 +5,36 @@ import { useMobile } from "@/hooks/use-mobile"
 
 const experiences = [
   {
+    title: "Software Engineering Intern",
+    company: "Microsoft",
+    period: "May 2026 - Upcoming",
+    description: "Selected for the Summer 2026 internship with the Microsoft Core team. Will be contributing to high-impact system design and collaborating with senior software engineers to deliver scalable solutions.",
+  },
+  {
     title: "ML Research Intern",
     company: "MLR LAB DTU, Delhi",
     period: "June 2025 - Present",
     description:
-      "Conducting research on Action recognition in Dark on ARID and ELLAR. Collaborating with cross-functional teams to develop and implement ML models pipelines.",
+      "Conducting research on Action recognition in Dark on ARIDv1.5 and ELLAR. Collaborating with cross-functional teams to develop and implement ML models pipelines to achieve better performance on classification.",
   },
   {
-    title: "Corporate Head",
+    title: "Corporate Coordinator",
     company: "Literature and Film Society, DTU",
-    period: "2023 - 2025",
+    period: "2023 - Present",
     description:
       "Spearheaded sponsorship acquisition by initiating partnerships, negotiating deals, forged corporate relationships and led a team of executives, ensuring financial support for the fest Yuvaan.",
   },
   {
+    title: "Educator - Programming & Digital Electronics",
+    company: "15ForTeen - YouTube Education Platform",
+    period: "June 2024 - December 2024",
+    description:
+      "Delivering video lectures on Programming fundamentals(C/C++) and core subjects like Digital Electronics for IP University students. Creating exam-oriented content and tutorials to support conceptual clarity and academic success.",
+  },
+  {
     title: "Volunteer",
     company: "Smart India Hackathon, Character on Road Hackathon",
-    period: "2024",
+    period: "September 2024",
     description: "Orchestrated logistics at major hackathons and events including Character On Road and Smart India Hackathon at DTU managing 1,000+ participants to ensure seamless event execution.",
   },
 ]
