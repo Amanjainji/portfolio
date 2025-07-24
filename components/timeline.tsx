@@ -4,12 +4,12 @@ import { motion } from "framer-motion"
 import { useMobile } from "@/hooks/use-mobile"
 
 const experiences = [
-  {
+  /*{
     title: "Software Engineering Intern",
     company: "Microsoft",
     period: "May 2026 - Upcoming",
     description: "Selected for the Summer 2026 internship with the Microsoft Core team. Will be contributing to high-impact system design and collaborating with senior software engineers to deliver scalable solutions.",
-  },
+  },*/
   {
     title: "ML Research Intern",
     company: "MLR LAB DTU, Delhi",
