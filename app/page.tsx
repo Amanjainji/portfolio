@@ -20,7 +20,7 @@ export default function Portfolio() {
     "Aman Jain",
     "Web Developer",
     "ML Researcher",
-    "Tech Enthusiast",
+    "CP Programmer",
   ];
 
   const [textIndex, setTextIndex] = useState(0);
@@ -302,7 +302,7 @@ export default function Portfolio() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
             <ProjectCard
-              title="Snap-Basket Grocery Platform"
+              title="Snap-Bucket Grocery Platform"
               description="A full-stack grocery platform built with React.js, JWT, and MongoDB."
               tags={["React.js", "JavaScript", "Tailwind CSS", "API"]}
               image="/project1.png?height=400&width=600"
