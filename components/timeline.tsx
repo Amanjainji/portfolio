@@ -28,7 +28,7 @@ const experiences = [
   {
     title: "Educator - Networks, Programming & Digital Electronics",
     company: "15ForTeen - YouTube Education Platform",
-    period: "June 2024 - December 2024",
+    period: "December 2024 - October 2025",
     description:
       "Delivering video lectures on Programming fundamentals(C/C++) and core subjects like Digital Electronics and Computer Networks for IP University students. Creating exam-oriented content and tutorials to support conceptual clarity and academic success.",
   },
