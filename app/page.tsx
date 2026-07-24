@@ -18,9 +18,9 @@ import { useState, useEffect } from "react";
 export default function Portfolio() {
   const texts = [
     "Aman Jain",
+    "Software Engineer",
     "Web Developer",
     "ML Researcher",
-    "CP Programmer",
   ];
 
   const [textIndex, setTextIndex] = useState(0);
@@ -245,7 +245,7 @@ export default function Portfolio() {
                 </div>
 
                 <div className="mt-8">
-                  <a href="/resume.pdf" download>
+                  <a href="/resume3.pdf" download>
                     <Button className="bg-zinc-800 hover:bg-zinc-700 text-white">
                       Download Resume
                     </Button>

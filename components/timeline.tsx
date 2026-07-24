@@ -1,14 +1,15 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { useMobile } from "@/hooks/use-mobile"
+import { motion } from "framer-motion";
+import { useMobile } from "@/hooks/use-mobile";
 
 const experiences = [
   {
-    title: "SDE Intern (Upcoming)",
+    title: "SDE Intern",
     company: "Microsoft",
     period: "May 2026 - July 2026",
-    description: "Selected for the Summer 2026 internship as an On Campus opportunity with the Microsoft Core team. Will be contributing to high-impact system design and collaborating with senior software engineers to deliver scalable solutions.",
+    description:
+      "Developed production-ready test automation for Windows Credential UI and UAC security workflows using Windows Test Object Model and MitaLite UIA and Enhanced Windows Passkey authentication by fixing a critical QR code rendering issue.",
   },
   {
     title: "ML Research Intern",
@@ -35,12 +36,13 @@ const experiences = [
     title: "Event Management Lead",
     company: "Smart India Hackathon, Character on Road Hackathon",
     period: "September 2024",
-    description: "Orchestrated logistics at major hackathons and events including Character On Road and Smart India Hackathon at DTU managing 1,000+ participants to ensure seamless event execution.",
+    description:
+      "Orchestrated logistics at major hackathons and events including Character On Road and Smart India Hackathon at DTU managing 1,000+ participants to ensure seamless event execution.",
   },
-]
+];
 
 export function Timeline() {
-  const isMobile = useMobile()
+  const isMobile = useMobile();
 
   return (
     <div
@@ -91,5 +93,5 @@ export function Timeline() {
         </div>
       ))}
     </div>
-  )
+  );
 }
