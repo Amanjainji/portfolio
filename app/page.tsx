@@ -86,10 +86,10 @@ export default function Portfolio() {
               </span>
             </h1>
             <p className="text-xl text-zinc-400 max-w-[600px]">
-              doing Bachelor of Technology at Delhi Technological University, Delhi, passionate about building smart tech
-              that solves real problems. I combine strong problem-solving skills
-              with a drive for innovation to create efficient, impactful
-              solutions.
+              doing Bachelor of Technology at Delhi Technological University,
+              Delhi, passionate about building smart tech that solves real
+              problems. I combine strong problem-solving skills with a drive for
+              innovation to create efficient, impactful solutions.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
               <a href="#projects">
@@ -245,7 +245,7 @@ export default function Portfolio() {
                 </div>
 
                 <div className="mt-8">
-                  <a href="/resume3.pdf" download>
+                  <a href="/resume.pdf" download>
                     <Button className="bg-zinc-800 hover:bg-zinc-700 text-white">
                       Download Resume
                     </Button>
